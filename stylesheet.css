@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: work sans;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-content:flex-end;
+    padding: 0px 56px;
+    padding-top: 70px;
+    gap: 60px;
+}
+
+#left{
+    /* background-color: red; */
+  width: 48%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom: 30px;
+  margin-left: 30px;
+}
+
+
+#left h1{
+    font-size: 85px;
+    font-family: work sans;
+    font-weight: 500;
+    line-height: 85px;    
+
+}
+
+#left_bottom{
+    /* background-color: yellow; */
+    height: 40%;
+    width: 100%;
+    padding: 10px;
+   
+    
+}
+#colors{
+
+    /* background-color: aqua;  */
+    width: fit-content;
+    font-size: 21px;
+    display: flex;
+    padding: 10px;
+    border-radius: 50px;
+    font-weight: 400;
+    border: 1px solid black;
+    margin-bottom:20px ;
+   
+
+}
+
+#colors h5{
+    font-size: 9px;
+    margin-right:16px;
+}
+
+#first{
+    background-color: rgb(68, 64, 64);
+    height: 9px;
+    width:9px ;
+    border-radius: 50%;
+    margin-right: 3px;
+}
+#second{
+    background-color: rgb(26, 20, 20);
+    height: 9px;
+    width:9px ;
+    border-radius: 50%;
+}
+h2{
+    font-size: 19px;
+    margin-bottom: 18px;
+}
+
+#left_bottom p{
+
+    font-size: 13px;
+    font-weight: 500;
+    width: 80%;
+
+
+}
+
+#right-top{
+    /* background-color: red; */
+    width: 100%;
+    height: 40px;
+    padding: 13px;
+    justify-content: space-between;
+    display: flex;
+
+
+}
+
+
+#right-top h3{
+        
+    font-size: 10px;
+
+
+}
+
+#right-top h2{
+        
+    font-size: 13px;
+    font-weight: 600;
+
+
+}
+
+#right{
+    /* background-color: green; */
+    width: 39%;
+    height: 85%;
+    margin-top: 60px;
+    position: relative;
+    
+}
+
+#right img{
+    height: 92%;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+#right h5{
+    position: absolute;
+background-color: rgb(20, 8, 39);
+color: white;
+font-weight: 400;
+border-radius: 50%;
+align-items: center;
+font-size: 11px;
+height: 100px;
+width: 100px;
+display: flex;
+align-items: center;
+justify-content: center;
+top: 50%;
+right: -14%;
+
+}
+
+#right h6{
+    position: absolute;
+    /* background-color: aqua; */
+    font-size: 19px;
+    left: 0;
+    bottom: 0;
+    rotate: -90deg;
+    transform-origin: 0 0;
+    left: -8%;
+}
